@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-   cout << "BMI Calculator" << endl;
+   cout << "BMI CALCULATOR" << endl;
 
    cout << endl;
 
-   cout << "1. Weight in pounds, height in inches" << endl;
-   cout << "2. Weight in kilograms, height in meters" << endl;
+   cout << "1. Weight in pounds and height in inches" << endl;
+   cout << "2. Weight in kilograms and height in meters" << endl;
 
    cout << endl;
 
@@ -51,12 +51,12 @@ int main()
         cout << "BMI: \t\t" << BMI << endl;
 
    } else if(choice == 2){
-       cout << "Weight in kilograms?: ";
+       cout << "Weight in kilograms (KG)?: ";
         cin >> weight;
 
         cout << endl;
 
-        cout << "Height in meters?: ";
+        cout << "Height in meters (m)?: ";
         cin >> height;
 
         BMI = weight / (height * height);
@@ -68,8 +68,8 @@ int main()
         cout << "Result.............." << endl;
         cout << endl;
 
-        cout << "Weight: \t" << weight << " kilograms" << endl;
-        cout << "Height: \t" << height << " meters" << endl;
+        cout << "Weight: \t" << weight << " kg" << endl;
+        cout << "Height: \t" << height << " m" << endl;
         cout << "BMI: \t\t" << BMI << endl;
    }
 
